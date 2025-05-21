@@ -5,19 +5,6 @@ Dự án này cung cấp một tập hợp các hàm xử lý dữ liệu điể
 - Tính điểm trung bình hợp lệ
 - Kiểm thử đơn vị (unit test) bằng `unittest`
 
-## 📁 Cấu trúc thư mục
-
-unit-test-VuVanTien/
-│
-├── src/
-│ └── StudentAnalyzer.py # Hàm xử lý điểm sinh viên
-│
-├── test/
-│ └── TestStudentUtils.py # Kiểm thử đơn vị cho các hàm
-│
-├── README.md # Hướng dẫn sử dụng dự án
-
-
 ## 🧪 Các chức năng chính
 
 ### `filter_gioi(danh_sach_diem)`
