@@ -10,3 +10,6 @@ def filter_gioi(scores):
         if 0 <= score <= 10 and score >= 8:
             gioi.append(score)
     return gioi
+
+
+
