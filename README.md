@@ -45,6 +45,7 @@ Bước 2: Hiển thị báo cáo:
 coverage report -m
 
 ✅ Kết quả đo coverage
+
 ![alt text](image.png)
 📃 Tác giả
 💻 Tên: Vũ Văn Tiến
