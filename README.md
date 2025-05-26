@@ -1,22 +1,9 @@
-# 📊 StudentAnalyzer - Phân Tích Điểm Sinh Viên
+# 📊 StudentAnalyzer - Phân tích điểm sinh viên
 
 Dự án này cung cấp một tập hợp các hàm xử lý dữ liệu điểm số sinh viên, bao gồm:
 - Lọc ra những điểm thuộc loại "giỏi"
 - Tính điểm trung bình hợp lệ
 - Kiểm thử đơn vị (unit test) bằng `unittest`
-
-## 📁 Cấu trúc thư mục
-
-unit-test-VuVanTien/
-│
-├── src/
-│ └── StudentAnalyzer.py # Hàm xử lý điểm sinh viên
-│
-├── test/
-│ └── TestStudentUtils.py # Kiểm thử đơn vị cho các hàm
-│
-├── README.md # Hướng dẫn sử dụng dự án
-
 
 ## 🧪 Các chức năng chính
 
@@ -49,6 +36,7 @@ python -m unittest -v test.TestStudentUtils
 [test_tinh_diem_tb_toan_bo_hop_le] Kết quả: 9.00
 --- Kết thúc test case ---
 ...
+
 📃 Tác giả
 💻 Tên: Vũ Văn Tiến
 
