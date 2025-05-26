@@ -37,6 +37,15 @@ python -m unittest -v test.TestStudentUtils
 --- Kết thúc test case ---
 ...
 
+📈 Đo độ bao phủ kiểm thử
+Bước 1: Chạy kiểm thử với coverage:
+coverage run -m unittest discover
+
+Bước 2: Hiển thị báo cáo:
+coverage report -m
+
+✅ Kết quả đo coverage
+![alt text](image.png)
 📃 Tác giả
 💻 Tên: Vũ Văn Tiến
 
