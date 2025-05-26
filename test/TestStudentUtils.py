@@ -13,6 +13,9 @@ class TestStudentAnalyzer(unittest.TestCase):
     def test_filter_gioi_empty_list(self):
         self.assertEqual(filter_gioi([]), [])
 
+    def test_filter_gioi_none(self):
+        self.assertEqual(filter_gioi(None), [])
+
     def test_filter_gioi_only_boundary_values(self):
         self.assertEqual(filter_gioi([0, 10]), [10])
 
@@ -28,6 +31,9 @@ class TestStudentAnalyzer(unittest.TestCase):
 
     def test_average_score_empty_list(self):
         self.assertEqual(average_score([]), 0)
+
+    def test_average_score_none(self):
+        self.assertEqual(average_score(None), 0)
 
     def test_average_score_only_boundary_values(self):
         self.assertEqual(average_score([0, 10]), 5.0)
