@@ -1,4 +1,4 @@
-# 📊 StudentAnalyzer - Phân Tích Điểm Sinh Viên
+# 📊 StudentAnalyzer - Phân tích điểm sinh viên
 
 Dự án này cung cấp một tập hợp các hàm xử lý dữ liệu điểm số sinh viên, bao gồm:
 - Lọc ra những điểm thuộc loại "giỏi"
