@@ -38,10 +38,13 @@ python -m unittest -v test.TestStudentUtils
 ...
 
 📈 Đo độ bao phủ kiểm thử
+
 Bước 1: Chạy kiểm thử với coverage:
+
 coverage run -m unittest discover
 
 Bước 2: Hiển thị báo cáo:
+
 coverage report -m
 
 ✅ Kết quả đo coverage
